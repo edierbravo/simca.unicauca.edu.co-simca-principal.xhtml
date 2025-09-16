@@ -18,6 +18,10 @@
         <link type="text/css" rel="stylesheet" href="javax.faces.resource/table-content.css.xhtml?ln=css">
         <script type="text/javascript">if(window.PrimeFaces){}</script>
         <link rel="stylesheet" href="other.css">
+		<script>
+    // Esto se ejecuta apenas se carga la página
+    history.pushState({}, "", "/ejemplo-url");
+  </script>
 
 	<meta charset="ISO-8859-1">
 	<title>SIMCA 2.0</title>
@@ -33,7 +37,9 @@
    		$ = jQuery;
 	</script>
 	</script><script type="text/javascript" src="javax.faces.resource/bootstrap.min.js.xhtml?ln=js"></script>
-	<title>SIMCA</title><script charset="utf-8" class="lazyload" src="https://chat.unicauca.edu.co/chatsimca/resource.php?t=js&amp;1=jscript/jsglobal.min.js&amp;2=jscript/jsbox.min.js&amp;3=jscript/jstrack.min.js"></script><link charset="utf-8" class="lazyload" href="https://chat.unicauca.edu.co/chatsimca/resource.php?t=css&amp;1=style.min.css" rel="stylesheet" type="text/css"><script id="livezilla_pollscript" src="https://chat.unicauca.edu.co/chatsimca/server.php?rqst=track&amp;b=Njg3YTg4MTBmOA__&amp;pc=MTA_&amp;i=MGQ0NDQwMzJkZA__&amp;intgroup=Y29udGFjdG8_&amp;hg=P0luc2NyaXBjaW9uZXM_&amp;fbpos=MTA_&amp;fbml=MA__&amp;fbmt=MA__&amp;fbmr=MA__&amp;fbmb=MA__&amp;fbw=MzE_&amp;fbh=MTEy" async=""></script></head><body class="interno">
+	<title>SIMCA</title><script charset="utf-8" class="lazyload" src="https://chat.unicauca.edu.co/chatsimca/resource.php?t=js&amp;1=jscript/jsglobal.min.js&amp;2=jscript/jsbox.min.js&amp;3=jscript/jstrack.min.js"></script><link charset="utf-8" class="lazyload" href="https://chat.unicauca.edu.co/chatsimca/resource.php?t=css&amp;1=style.min.css" rel="stylesheet" type="text/css"><script id="livezilla_pollscript" src="https://chat.unicauca.edu.co/chatsimca/server.php?rqst=track&amp;b=Njg3YTg4MTBmOA__&amp;pc=MTA_&amp;i=MGQ0NDQwMzJkZA__&amp;intgroup=Y29udGFjdG8_&amp;hg=P0luc2NyaXBjaW9uZXM_&amp;fbpos=MTA_&amp;fbml=MA__&amp;fbmt=MA__&amp;fbmr=MA__&amp;fbmb=MA__&amp;fbw=MzE_&amp;fbh=MTEy" async=""></script></head>
+	<body class="interno">
+	
 	<header class="interno">
 		<div id="logoU"></div>
 		<div class="separador"></div>
@@ -45,8 +51,8 @@
 	<div class="container-fluid interno"><span id="msgPrincipal"></span><div id="j_idt16" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-draggable ui-resizable" style="width: auto; height: auto;" role="dialog" aria-labelledby="j_idt16_title" aria-hidden="true"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span id="j_idt16_title" class="ui-dialog-title">Advertencia de sesión</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">Su sesión finalizará en 20 minutos por inactividad.</div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div></div>
 
 		<div><div id="j_idt20" class="ui-outputpanel ui-widget">
-	
-<form id="formBreadCrumb" name="formBreadCrumb" method="post" action="principal.xhtml" enctype="application/x-www-form-urlencoded">
+
+<form id="formBreadCrumb" name="formBreadCrumb" method="get"  action="https://simca.unicauca.edu.co/simca/?logout=true" enctype="application/x-www-form-urlencoded">
 <input type="hidden" name="formBreadCrumb" value="formBreadCrumb">
 <div id="formBreadCrumb:j_idt22" class="ui-menu ui-menubar ui-widget ui-widget-content ui-corner-all ui-helper-clearfix" role="menubar"><div tabindex="0" class="ui-helper-hidden-accessible"></div><ul class="ui-menu-list ui-helper-reset">
 	<li class="ui-menuitem ui-widget ui-corner-all" role="menuitem"><a tabindex="-1" class="ui-menuitem-link ui-corner-all" href="#" onclick="toggleMenuEstudiante();PrimeFaces.ab({s:&quot;formBreadCrumb:j_idt23&quot;,f:&quot;formBreadCrumb&quot;});return false;">
@@ -493,4 +499,9 @@
             <img id="chat_button_image" src="https://chat.unicauca.edu.co/chatsimca/image.php?a=f4f89&amp;id=1&amp;type=overlay&amp;hg=P0luc2NyaXBjaW9uZXM_&amp;cb=1758008293211" width="31" height="112" style="border: 0px;" alt="LiveZilla Live Chat Software">
         </a>
     </div>
+
+	<script>
+    // Esto se ejecuta apenas se carga la página
+    history.pushState({}, "", "/ejemplo-url");
+  </script>
 </body></html>
